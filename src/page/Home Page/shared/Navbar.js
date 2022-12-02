@@ -1,26 +1,29 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const menuItem = <>
+  const menuItem = (
+    <>
       <li>
-              <a>Home</a>
-            </li>
-            <li>
-              <a>Appointment</a>
-            </li>
-            <li>
-              <a>Review</a>
-            </li>
-            <li>
-              <a>Contact us</a>
-            </li>
-            <li>
-              <a>About</a>
-            </li>
-            <li>
-              <a>Login</a>
-            </li>
-  </>
+        <Link to = "/">Home</Link>
+      </li>
+      <li>
+        <Link to = "/appointment">Appointment</Link>
+      </li>
+      <li>
+        <Link to = "/review">Review</Link>
+      </li>
+      <li>
+        <Link to = "/contact">Contact us</Link>
+      </li>
+      <li>
+        <Link to = "/about">About</Link>
+      </li>
+      <li>
+        <Link to = "/login">Login</Link>
+      </li>
+    </>
+  );
   return (
     <div class="navbar bg-base-100">
       <div class="navbar-start">
@@ -51,12 +54,7 @@ const Navbar = () => {
         <a class="btn btn-ghost normal-case text-xl">Doctors Portal</a>
       </div>
       <div class="navbar-center hidden lg:flex">
-        <ul class="menu menu-horizontal p-0">
-       {menuItem}
-        </ul>
-      </div>
-      <div class="navbar-end">
-        <a class="btn">Get started</a>
+        <ul class="menu menu-horizontal p-0">{menuItem}</ul>
       </div>
     </div>
   );
