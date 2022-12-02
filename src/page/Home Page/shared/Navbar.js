@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Banner from "../Banner";
 
 const Navbar = () => {
   const menuItem = (
@@ -52,7 +51,7 @@ const Navbar = () => {
             {menuItem}
           </ul>
         </div>
-        <a class="btn btn-ghost normal-case text-xl">Doctors Portal</a>
+        <a href="#" class="btn btn-ghost normal-case text-xl">Doctors Portal</a>
       </div>
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal p-0">{menuItem}</ul>
