@@ -22,7 +22,7 @@ const Service = () => {
       _id: 1,
       name: "Teeth Whitening",
       description: "",
-      img: whitening,
+      img: whitening, 
     },
   ];
   return (
