@@ -6,11 +6,14 @@ const Contact = () => {
         <section style={{
             background: `url(${background})`
         }}>
-            <h3 className='text-white text-center font-extrabold text-3xl pt-5 '>Contact Us</h3>
+           
             
-            <div class="hero min-h-screen ">
+            <div class=" min-h-screen ">
+
+            <h3 className='text-white text-center font-extrabold text-3xl pt-2'>Contact Us</h3>
+
   <div class="hero-content flex-col lg:flex-row-reverse ">
-   
+
     <div class="card  w-full max-w-sm shadow-2xl bg-base-100">
       <div class="card-body">
         <div class="form-control">
@@ -21,7 +24,7 @@ const Contact = () => {
           <input type="text" placeholder="Type Your Message" class="input input-bordered py-16" />
         </div>
         
-        <div class="form-control mt-6">
+        <div class="form-control mt-4">
           <button class="btn btn-primary">Login</button>
         </div>
       </div>
