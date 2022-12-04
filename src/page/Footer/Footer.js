@@ -55,7 +55,7 @@ const Footer = () => {
       </footer>
       <div>
         <p className=" text-center">
-          Copyright © 2022 - All right reserved by ACME Industries Ltd
+          Copyright © 2022 - All right reserved by Doctor-Portal
         </p>
       </div>
     </section>
