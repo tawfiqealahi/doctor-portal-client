@@ -7,7 +7,7 @@ const Review = ({review}) => {
  
     <p>{review.paragraph}</p>
     <div className="flex py-4">
-    <img src={review.img} className="pr-5 w-20" alt="reviewer image" />
+    <img src={review.img} className="pr-5 w-20" alt="reviewer image"/>
     <h2 class="card-title text-white">{review.name}</h2>
     </div>
   </div>
