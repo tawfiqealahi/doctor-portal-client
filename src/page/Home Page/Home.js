@@ -5,10 +5,11 @@ import Info from "./Info";
 
 const Home = () => {
   return (
-    <div>
+    <div className="px-7">
       <Banner></Banner>
       <Info></Info>
       <Service></Service>
+      
     </div>
   );
 };
