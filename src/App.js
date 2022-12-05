@@ -6,7 +6,7 @@ import About from "./page/About/About";
 import Login from "./page/Login/Login";
 function App() {
   return (
-    <div>
+    <div  className="px-5">
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />

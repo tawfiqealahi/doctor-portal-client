@@ -10,7 +10,7 @@ import Footer from "../Footer/Footer";
 
 const Home = () => {
   return (
-    <div className="px-5">
+    <div>
       <Banner></Banner>
       <Info></Info>
       <Service></Service>
