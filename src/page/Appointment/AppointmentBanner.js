@@ -1,11 +1,11 @@
-import React, {useState} from "react";
+import React from "react";
 import chair from "../../images/chair.png";
 import { format } from "date-fns";
 import { DayPicker } from "react-day-picker";
 import "react-day-picker/dist/style.css";
 
-const AppointmentBanner = () => {
-  const [date, setDate] = useState(new Date());
+const AppointmentBanner = ({date,setDate}) => {
+
   return (
     <div>
       <div class="hero min-h-screen bg-base-200">
