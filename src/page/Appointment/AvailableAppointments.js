@@ -18,7 +18,7 @@ const AvailableAppointments = ({ date }) => {
 
   return (
     <div>
-      <p className="text-center pt-7">
+      <p className="text-center py-7">
         Available Appointment on: {format(date, "PP")}
       </p>
       <div className="grid grid-cols-1 ms:grid-cols-2 lg:grid-cols-3 gap-5">
