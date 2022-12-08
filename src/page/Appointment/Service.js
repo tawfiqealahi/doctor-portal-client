@@ -12,9 +12,9 @@ const Service = ({service}) => {
          ? 
         <span>{slots[0]}</span>
         :
-        <span>No slot available</span>
+        <span className='text-red-500 '>No slot available. try another date </span>
         }</p>
-    <p>{slots.length} {slots.length>1? 'spaces' : "space"}Unavailable. try another date </p>
+    <p>{slots.length} {slots.length>1? 'spaces' : "space"} available </p>
     <div class="card-actions justify-end">
       <button disabled={slots.length===0} class="btn text-white">Buy Now</button>
     </div>
